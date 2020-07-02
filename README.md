@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-Homework 1, FullStack Online
+# goit-markup-hw-02
+Homework 2, FullStack Online
