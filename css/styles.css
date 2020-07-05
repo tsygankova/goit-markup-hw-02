@@ -4,16 +4,14 @@
 --secondary-font: "Raleway",sans-serif;
 --title-dark-theme-color:#ffffff;
 --title-light-theme-color:#212121;
---text-light-theme-color: #757575;
---text-menu-color:
+--text-main-color: #757575;
 --accent-color:#2196F3;
-
-
+--background-color:#ffffff;
 }
 
 .body{
-  background-color: #e5e5e5;
-  color:#757575;
+  background-color:var(--background-color);
+  color: var(--text-main-color);
   font-family: var(--main-font);
   font-size:14px;
   letter-spacing: 0.03em;
@@ -48,21 +46,21 @@ letter-spacing: 0.02em;
 }
 
 .menu-item-link{
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 
 .header-email-link, 
 .header-phone-link{
-  color: #757575;
+  color: var(--text-main-color);
 }
 
 .menu-item-link:hover,
-.menu-item-link:focus
+.menu-item-link:focus,
 .header-email-link:hover,
 .header-email-link:focus, 
 .header-phone-link:hover,
 .header-phone-link:focus{
-  color: #2196F3;
+  color: var(--accent-color);
 }
 
 /*hero*/
@@ -73,7 +71,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--title-dark-theme-color);
 background-color:#757575;}
 
 .modal-btn{
@@ -134,19 +132,26 @@ line-height: 1.19;
 .footer-address{
 font-style: normal;
 line-height: 1.71;
-color: #FFFFFF;
+color: var(--title-dark-theme-color);
 }
 
-.footer-email, .footer-tel {font-style: normal;
+.footer-email, .footer-tel {
+  font-style: normal;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-email:hover,
+.footer-email:focus,
+.footer-tel:hover,
+.footer-tel:focus{
+  color: var(--accent-color);
+}
 .social-call{
   font-weight: bold;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--title-dark-theme-color);
 }
 
 .footer-logo{
