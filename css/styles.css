@@ -92,6 +92,7 @@ span{color:var(--logo-color);}
   letter-spacing: 0.06em;
   color: var(--title-dark-theme-color);
   background: #2196F3;
+  letter-spacing: 0.03em;
 }
 
 /*ФИЧИ*/
@@ -175,6 +176,7 @@ span{color:var(--logo-color);}
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter{
   color: var(--title-light-theme-color);
