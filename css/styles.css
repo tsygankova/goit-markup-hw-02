@@ -23,8 +23,10 @@
   list-style: none;
 }
 
+/*logo blue*/
 span{color: #2196F3;}
 
+/* index header*/
 .menu-item-link{
 font-weight: 500;
 line-height: 1.14;
@@ -139,4 +141,25 @@ color: #FFFFFF;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+}
+
+/*portfolio*/
+.portfolio-item-title{
+  font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.portfolio-item-text{
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+.portfolio-item-hover-text{
+font-size: 18px;
+line-height: 1.56;
+color: #FFFFFF;
+background-color: rgba(33, 150, 243, 0.9);
 }
