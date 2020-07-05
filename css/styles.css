@@ -1,52 +1,50 @@
 .body{
-  background-color:#ffffff;
+  background-color: #e5e5e5;
   color:#757575;
   font-family: "Roboto", sans-serif; 
   font-size:14px;
   letter-spacing: 0.03em;
-
 }
 
-.logo{
-  color:#000000;
+/*ссылки и списки - общие стили*/
+.link{
+  text-decoration: none;
+}
+.list{
+  list-style: none;
+}
+
+/*logo*/
+.logo, .footer-logo{
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
 }
-
-.link{
-  text-decoration: none;
-}
-
-.list{
-  list-style: none;
-}
-
+.logo {color:#000000;}
 /*logo blue*/
 span{color: #2196F3;}
 
 /* index header*/
-.menu-item-link{
+.menu-item-link, 
+.header-email-link,
+.header-phone-link{
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
 }
 
-.menu-item-link:hover,
-.menu-item-link:focus{
-  color: #2196F3;
+.menu-item-link{
+  color: #212121;
 }
 
 .header-email-link, 
 .header-phone-link{
   color: #757575;
-  font-weight: 500;
-  line-height: 1.14px;
-  letter-spacing: 0.02em;
 }
 
+.menu-item-link:hover,
+.menu-item-link:focus
 .header-email-link:hover,
 .header-email-link:focus, 
 .header-phone-link:hover,
@@ -54,6 +52,7 @@ color: #212121;
   color: #2196F3;
 }
 
+/*hero*/
 .hero-title{
 font-weight: 900;
 font-size: 44px;
@@ -76,6 +75,7 @@ color: #FFFFFF;
 background: #2196F3;
 }
 
+/*ФИЧИ*/
 .features-item-title{
 font-weight: bold;
 line-height: 1.14;
@@ -94,27 +94,28 @@ color: #212121;
   text-align: center;
   color: #212121;}
 
+ /*НАПРАВЛЕНИЯ БИЗНЕСА*/ 
   .business-item-title{
     font-weight: bold;
 line-height: 1.14;
-text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
 background-color:#2F303A;
-  }
+}
+
+/*КОМАНДА*/   
+.team-member-title, 
+.team-member-text{
+font-size: 16px;
+line-height: 1.19;
+}
 
 .team-member-title{
   font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
+  text-align: center;
 }
 
-.team-member-text{
-  font-size: 16px;
-line-height: 1.19;
-}
-
+/*ФУТЕР*/
 .footer{background: #2F303A;}
 
 .footer-address{
@@ -130,20 +131,16 @@ color: #FFFFFF;
 
 .social-call{
   font-weight: bold;
-  line-height: 16p1.14x;
+  line-height: 1.14;
   text-transform: uppercase;
   color: #FFFFFF;
 }
 
 .footer-logo{
   color:#FFFFFF;
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
-/*portfolio*/
+/*PORTFOLIO*/
 .portfolio-item-title{
   font-size: 18px;
 line-height: 2;
