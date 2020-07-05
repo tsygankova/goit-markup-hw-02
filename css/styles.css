@@ -1,11 +1,18 @@
+/*палитра макета и переменные*/
 :root{
+--main-font:"Roboto", sans-serif;
+--secondary-font: "Raleway",sans-serif;
+--title-dark-theme-color:#ffffff;
+--title-light-theme-color:#212121;
+--text-light-theme-color: #757575;
+--accent-color:#2196F3;
 
 }
 
 .body{
   background-color: #e5e5e5;
   color:#757575;
-  font-family: "Roboto", sans-serif; 
+  font-family: var(--main-font);
   font-size:14px;
   letter-spacing: 0.03em;
 }
@@ -20,7 +27,7 @@
 
 /*logo*/
 .logo, .footer-logo{
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
