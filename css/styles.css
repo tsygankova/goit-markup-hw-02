@@ -97,6 +97,7 @@ span{color:var(--logo-color);}
 
 /*ФИЧИ*/
 .features-item-title{
+  font-size: 14px;
   font-weight: bold;
   line-height: 1.14;
   text-transform: uppercase;
@@ -134,6 +135,7 @@ span{color:var(--logo-color);}
 .team-member-title{
   font-weight: 500;
   text-align: center;
+  color: var(--title-light-theme-color)
 }
 
 /*ФУТЕР*/
@@ -168,7 +170,7 @@ span{color:var(--logo-color);}
   color:#FFFFFF;
 }
 
-/*ФИЛЬТРЫ*/
+/*portfolio filters*/
 .filter, 
 .filter:hover,
 .filter:focus{
@@ -178,6 +180,8 @@ span{color:var(--logo-color);}
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/*portolio items*/
 .filter{
   color: var(--title-light-theme-color);
 }
@@ -186,8 +190,6 @@ span{color:var(--logo-color);}
   color: var(--hover-buttons-text);
   background-color: rgba(33, 150, 243, 1);
 }
-
-/*PORTFOLIO*/
 
 .portfolio-item-title{
   font-size: 18px;
